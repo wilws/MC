@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+{% load static %}    
+
+<head>
+<meta charset="utf-8" />
+ <title>Testing </title>
+ <link rel="stylesheet" href="{% static "css/test.css" %}">     
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+<script src="main.js"></script>
+</head>
+<body>
+ <h1 class="test">Hello this is index.html!</h1>
+{{ insert_me }}
+<img src="{% static "image/test.png" %}" alt="Uh oh ,image didn't show"> 
+</body>
+S</html>
